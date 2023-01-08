@@ -2,11 +2,12 @@ import React from 'react';
 import { Text } from 'react-native';
 import styles from './styles';
 
-const Title = () => {
+const Title = ({ text, style }) => {
     return (
-        <Text style={styles.title}>Title component</Text>
+        <Text style={[styles.title, style]}>{text}</Text>
     );
 
 };
 
-export default Title;
+
+export default React.memo(Title);
