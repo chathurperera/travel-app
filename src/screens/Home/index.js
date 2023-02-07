@@ -11,7 +11,7 @@ const Home = () => {
         <Title text='Where do' style={{ fontWeight: 'normal' }} />
         <Title text='you want to go' />
         <Title text='Explore Attractions' style={styles.subTitle} />
-        <Categories categories={['All', 'Popular', 'Historical']} />
+        <Categories selectedCategory='All' categories={['All', 'Popular', 'Historical', 'adada', 'adAd', 'dqcsa', 'acdq', 'adXa', 'adda']} />
       </View>
     </SafeAreaView>
   );
